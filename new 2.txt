@@ -3,7 +3,7 @@ import asyncio
 from discord.voice_client import VoiceClient
 from discord.ext.commands import Bot
 from discord.ext import commands
-Client = discord.Client()
+Client = discord.Client(439308791742332932)
 bot_prefix= "dev."
 client = commands.Bot(command_prefix=bot_prefix)
 vc_clients = {}
